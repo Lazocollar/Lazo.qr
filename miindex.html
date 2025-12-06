@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Mascota - Rubí</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #19A7A0;
+            font-family: Arial, sans-serif;
+        }
+
+        .card-section {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+            border: 4px solid #EFB635;
+        }
+
+        .header-image {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border-bottom: 4px solid #19A7A0;
+        }
+
+        .icon-card {
+            background: white;
+            padding: 18px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.12);
+        }
+
+        .label {
+            font-weight: bold;
+            color: #4a4a4a;
+        }
+
+        .value {
+            color: #000;
+        }
+
+        .section-title {
+            font-size: 1.4rem;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .btn-custom {
+            background-color: #19A7A0;
+            color: white;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+        .btn-custom:hover {
+            background-color: #12807c;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .header-image {
+                height: 180px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+     <!-- HEADER CON LOGO -->
+    <header class="py-3 text-center" style="background-color: #19A7A0;">
+        <img src="assets/logo.lazo.blanco.png" alt="Logo" style="height: 60px;">
+    </header>
+
+    <div class="container py-4">
+
+        <!-- IMAGEN DE LA GATITA -->
+        <div class="text-center mb-3 mt-3">
+            <img src="assets/gato-rubi.jpg.jpeg" alt="Rubi" class="header-image rounded">
+            <h4 class="text-white mt-2">Nombre: Rubí</h4>
+        </div>
+
+        <!-- DATOS GENERALES -->
+        <h5 class="section-title">Datos generales</h5>
+
+        <div class="row text-center mb-4">
+            <div class="col-4">
+                <div class="icon-card">
+                    <p class="fw-bold mb-0">11 meses</p>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="icon-card">
+                    <p class="fw-bold mb-0">Mestiza</p>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="icon-card">
+                    <p class="fw-bold mb-0">2,5 kg</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- INFO DETALLADA -->
+        <div class="card-section">
+            <div class="mb-2"><span class="label">Sexo:</span> <span class="value">Hembra</span></div>
+            <div class="mb-2"><span class="label">Color de pelaje:</span> <span class="value">Blanco</span></div>
+            <div class="mb-2"><span class="label">Color de ojos:</span> <span class="value">Amarillo verdoso</span></div>
+            <div class="mb-2"><span class="label">Contextura:</span> <span class="value">Delgada</span></div>
+            <div class="mb-1"><span class="label">Enfermedad de base:</span> <span class="value">Leucemia felina (FeLV)</span></div>
+        </div>
+
+        <!-- HOGAR -->
+        <h5 class="section-title">Hogar</h5>
+
+        <div class="card-section">
+            <div class="mb-2"><span class="label">Ciudad:</span> <span class="value">Santa Cruz de la Sierra</span></div>
+            <div class="mb-3"><span class="label">Domicilio actual:</span> <span class="value">Condominio Claros, Avenida Bush, sobre el segundo anillo</span></div>
+
+            <a href="https://maps.app.goo.gl/ehB4kS2G57djPK5A9" target="_blank" class="btn btn-custom w-100">Abrir en Maps</a>
+        </div>
+
+        <!-- DUEÑA -->
+        <h5 class="section-title">Datos de la dueña</h5>
+
+        <div class="card-section">
+            <div class="mb-2"><span class="label">Nombre completo:</span> <span class="value">Milenka Faldin León</span></div>
+            <div class="mb-2"><span class="label">Edad:</span> <span class="value">21 años</span></div>
+            <div class="mb-2"><span class="label">Ocupación:</span> <span class="value">Estudiante</span></div>
+            <div class="mb-3"><span class="label">Celular:</span> <span class="value">757-52-556</span></div>
+
+            <a href="https://wa.link/mdwztb" target="_blank" class="btn btn-custom w-100">Contactar</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
